@@ -1,0 +1,138 @@
+.main_first--section {
+  background-image: url(../img/Group\ 37\ \(1\)\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main_first--logo--wrapper {
+  padding-top: 94px;
+  padding-left: 14px;
+}
+
+.main_first--title {
+  font-family: Playfair Display;
+  font-size: 144px;
+  font-weight: 400;
+  line-height: 191.95px;
+  text-align: left;
+  color: white;
+}
+
+.main_first--subtitle {
+  font-family: Playfair Display;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 95.98px;
+  text-align: left;
+  color: white;
+  margin-top: -20px;
+}
+
+.main_first--text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+  color: white;
+  max-width: 508px;
+  margin-top: 12px;
+  margin-bottom: 41px;
+}
+
+.main_first--btn--wrapper {
+  padding-bottom: 183px;
+}
+
+.main_first--btn {
+  width: 254px;
+  height: 67px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  color: white;
+  background-color: #8e32c6;
+  border: 0;
+  border-radius: 10px;
+}
+
+.main_second--section {
+  background-image: url(../img/Group\ 8\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.main_second--section .main_container {
+  display: flex;
+  justify-content: center;
+  gap: 95px;
+  border: 5px solid #8E32C6;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.main_second--card--text {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 47.99px;
+  text-align: center;
+  color: white;
+  max-width: 161px;
+}
+
+.main_second--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_second--card:first-child {
+  border-right: 1px solid white;
+  padding-right: 50px;
+}
+
+.main_second--card:first-child::after {
+  content: "";
+  background-image: url("../img/Звёзды\ 1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+}
+
+.main_second--card:last-child {
+  border-left: 1px solid white;
+  padding-left: 50px;
+}
+
+.main_second--card:last-child::after {
+  content: "";
+  background-image: url("../img/Грузан\ 1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+}
+
+.main_second--card:nth-child(2)::after {
+  content: "";
+  background-image: url("../img/Краски\ 1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+}
